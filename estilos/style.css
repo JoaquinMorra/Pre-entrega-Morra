@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: chocolate;
+    padding: 20px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    height: 150px;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    padding-top: 40px;
+}
+
+footer{
+    background-color: chocolate;
+    padding: 20px;
+}
+
+footer h3{
+    display: flex;
+    justify-content: center;
+}
+
