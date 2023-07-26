@@ -19,6 +19,24 @@
     </header>
     <main>
         <h1>Bienvenidos a la pagina de Ropa "RUE"</h1>
+        <section>
+            <h2>Buscar Producto</h2>
+            <label for="nombreProducto">Nombre del Producto:</label>
+            <input type="text" id="nombreProducto">
+            <button onclick="buscarProducto()">Buscar</button>
+            <div id="productoEncontrado">
+                <!-- Aquí se mostrará el resultado de la búsqueda -->
+            </div>
+        </section>
+        <section>
+            <h2>Filtrar Productos</h2>
+            <label for="precioMaximo">Precio Máximo:</label>
+            <input type="number" id="precioMaximo">
+            <button onclick="filtrarProductos()">Filtrar</button>
+            <div id="productosFiltrados">
+                <!-- Aquí se mostrarán los productos filtrados -->
+            </div>
+        </section>
 
     </main>
 
